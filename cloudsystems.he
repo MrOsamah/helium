@@ -1,0 +1,15 @@
+"""
+This script uses Helium to automatically perform a Bing search for
+"cloudsystems.sa", and opens the company's website, Then it will click on contact us.
+"""
+
+start_chrome("bing.com")
+write("cloudsystems.sa")
+press(ENTER)
+click("Cloud Systems")
+click("Contact Us")
+if 'Contact Us' in get_driver().title:
+	print 'Test passed!'
+else:
+	print 'Test failed :('
+kill_browser()
