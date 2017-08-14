@@ -1,2 +1,2 @@
 # helium
-automation tests
+automated tests
