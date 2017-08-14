@@ -1,3 +1,7 @@
+"""
+This script uses Helium to automatically perform a Bing search for
+"cloudsystems.sa", and opens the company's website, Then it will click on contact us.
+"""
 
 start_chrome("bing.com")
 write("cloudsystems.sa")
